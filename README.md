@@ -12,11 +12,11 @@ UnitFlex: Python Package для конвертации единиц измере
 1) Через Python
 python
 from unitflexx.core import convert
-print(convert("temperature", "celsius", "fahrenheit", 100))  # 212.0
+print(convert("temperature", "celsius", "fahrenheit", 100))  #example
 
 2) Через CLI 
-unitflexx temperature celsius fahrenheit 100
-# Вывод: 100 celsius = 212.00 fahrenheit
+unitflexx temperature celsius fahrenheit 100 
+
 
 Поддерживаемые конвертации согласно условию задания
 Температура	цельсий в фаренгейт и обратно
